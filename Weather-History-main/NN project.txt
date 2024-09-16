@@ -1,0 +1,4 @@
+fig = px.histogram(weather_df,x ='Temperature (C)' ,title='Distribution of Temperature')
+fig.update_layout(bargap=0.1)
+fig.show()
+
